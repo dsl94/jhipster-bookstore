@@ -1,0 +1,25 @@
+{
+    "bookstoreApp": {
+        "book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Book erstellen",
+                "createOrEditLabel": "Book erstellen oder bearbeiten",
+                "search": "Suche nach Book"
+            },
+            "created": "Book erstellt mit ID {{ param }}",
+            "updated": "Book aktualisiert mit ID {{ param }}",
+            "deleted": "Book gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Book {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "description": "Description",
+            "publishingDate": "Publishing Date",
+            "author": "Author"
+        }
+    }
+}

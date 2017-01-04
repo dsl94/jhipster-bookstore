@@ -1,0 +1,12 @@
+version: '2'
+services:
+    bookstore-postgresql:
+        container_name: bookstore-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/bookstore/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=bookstore
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
